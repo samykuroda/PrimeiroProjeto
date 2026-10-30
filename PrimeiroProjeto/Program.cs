@@ -39,7 +39,7 @@ void ExibirMenuDeOpcoes ()
             RegistrarUmaBanda();
             break;
         case 2:
-            Console.WriteLine(listaDeBandas.Count == 0 ? "Nenhuma banda registrada!" : "Bandas registradas: " + string.Join(", ", listaDeBandas));
+            Console.WriteLine(listaDeBandas);
             break;
         case 3:
             Console.WriteLine("Você escolheu a opção " + opcaoEscolhida);
